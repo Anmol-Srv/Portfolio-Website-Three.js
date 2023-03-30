@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import logowhite from "./logo-white.svg";
 import logoblack from "./logo-black.svg";
 import backend from "./backend.png";
@@ -21,7 +20,6 @@ import reactjs from "./tech/reactjs.png";
 import threejs from "./tech/threejs.svg";
 import c from "./tech/cpp.png"
 import aws from "./tech/aws.png"
-import express from "./tech/expressjs.png"
 // import github from "./tech/github.png"
 import next from "./tech/next.png"
 import solidity from "./tech/solidity.png"
@@ -36,7 +34,6 @@ import echofy from "./echofy.png"
 import metacrowd from "./metacrowd.png"
 
 export {
-  logo,
   logowhite,
   logoblack,
 
@@ -61,7 +58,6 @@ export {
   threejs,
   c,
   aws,
-  express,
   next,
   solidity,
 
