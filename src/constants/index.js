@@ -15,10 +15,12 @@ import {
   indra,
   echofy,
   metacrowd,
+  kiitopedia,
   aws,
   solidity,
   iitcell,
-  eim
+  eim,
+  artifae
 } from "../assets";
 
 export const navLinks = [
@@ -104,15 +106,29 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Data Analyst Intern",
+    company_name: "Artifae, Dubai UAE",
+    icon: artifae,
+    iconBg: "#383E56",
+    date: "October 2022 - January 2023",
+    points: [
+      "Crafted intuitive Tableau dashboards by translating complex financial data, providing stakeholders with actionable insights to drive business decisions.",
+      "Played a pivotal role in guiding lending decisions for loans exceeding $5M, conducting comprehensive feasibility analyses for over 30 firms, emphasizing data-driven decision-making.",
+      "Synthesized data insights to generate impactful reports, aiding in the formulation of strategic improvements and future business directions.",
+      "Actively collaborated with cross-functional teams, leveraging feedback to refine and optimize data visualizations, ensuring maximum clarity and utility for stakeholders."
+    ],
+  },
+  {
     title: "Full-Stack Web Developer Intern",
     company_name: "IITC - Indraprastha IT Cell (P) Ltd",
     icon: iitcell,
     iconBg: "#383E56",
     date: "June 2021 - August 2021",
     points: [
-      "Worked under various professionals to design and develop next-generation web applications for the company and numerous clients using the latest tools and technologies like Docker, AWS, React and RESTful APIs.",
-      "Got an opportunity to work collaboratively with various teams and gained experience in various project lifecycle practices like CI/CD pipelining.",
-      "Developed websites and software for clients including Reliance VFX Education, AY Task Consulting Agency, and Task and Associates. Explored ways to improve user experience.",
+      "Web Application Leadership: Spearheaded the development and deployment of innovative web applications, resulting in a significant boost in customer growth and engagement.",
+      "Custom Solutions & Satisfaction: Delivered bespoke web solutions tailored to client requirements, achieving an outstanding 95% customer satisfaction rate, showcasing adaptability and a user-centric approach.",
+      "Iterative Enhancement: Incorporated user feedback to continuously optimize web applications, emphasizing a commitment to enhancing usability and overall user experience.",
+      "Full-Stack Development: Demonstrated proficiency in end-to-end web development, leveraging technologies such as ReactJS and NodeJS to drive results and meet diverse client needs"
     ],
   },
   {
@@ -122,8 +138,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2020 - Feb 2021",
     points: [
-      "Investigating emerging markets, assessing the need and then formulating a strategy in accordance with numerous outreach activities and identifying funding sources in the countries with which the organisation is associated.",
-      "Assisting in grant writing and searching for strategic partners in the respective countries and closing meaningful partnerships for the long term.",
+      "Strategic Market Analysis: At Every Infant Matters, a global non-profit combatting health disparities, I led comprehensive market research to pinpoint emerging opportunities, assess needs, and devise strategies for impactful outreach campaigns.",
+      "Financial Sustainability: Proactively identified and secured diverse funding avenues across partner countries, ensuring consistent financial backing for pivotal health initiatives.",
+      "Partnership Development: Collaborated in grant proposal creation and diligently pursued strategic alliances, establishing enduring partnerships that amplified the organization's long-term reach and efficacy.",
+      "Mission-Driven Contribution: Actively furthered the organization's commitment to providing last-mile health solutions, addressing malnutrition and its severe repercussions among underserved populations.",
+      "Flagship Project Involvement: Engaged in the pivotal initiative of distributing vitamin A to malnourished children, a crucial step in preventing irreversible blindness and championing child welfare."
     ],
   },
   // {
@@ -182,6 +201,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "KIIOPEDIA - Social Media Platform",
+    description:
+      "KIITopedia is a full-stack social media platform I contributed to, built using React, NodeJs, Express, MongoDB, Redux, and JWT. It serves as a dynamic and responsive platform with features like user authorization, real-time state management, and content sharing.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color:"blue-text-gradient"
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: kiitopedia,
+    source_code_link: "https://github.com/Anmol-Srv/KIITopedia",
+  },
   {
     name: "Indraprastha IT Cell Web Portal",
     description:

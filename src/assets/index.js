@@ -27,11 +27,13 @@ import solidity from "./tech/solidity.png"
 
 import iitcell from "./company/iitcell.png";
 import eim from "./company/eim.png";
+import artifae from "./company/logo-white.png";
 
 
 import indra from "./indra.png"
 import echofy from "./echofy.png"
 import metacrowd from "./metacrowd.png"
+import kiitopedia from "./kiitopedia.png";
 
 export {
   logowhite,
@@ -63,8 +65,10 @@ export {
 
   iitcell,
   eim,
+  artifae,
 
   indra,
   echofy,
-  metacrowd
+  metacrowd,
+  kiitopedia
 };
